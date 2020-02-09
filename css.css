@@ -1,0 +1,76 @@
+/* ページ全体の基本的な設定。背景色や文字色など */
+
+body {
+#	margin-left :  20px;
+#	margin-right: 250px;
+	font-size   : 9pt;
+	font-family : "Meiryo", "メイリオ"
+#	padding     : 1px 1px 1px 1px;
+	color       : #020202;
+	background  : #ffffff;
+}
+
+/* サブタイトルの設定 */
+h2 {
+	font-size: 11pt; 
+	color:#00007F;
+}
+
+h3 {
+	font-size: 11pt; 
+	margin: 0em;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+/* テーブルの設定 */
+
+table {
+	font-size   : 9pt;
+	font-family : "Meiryo", "メイリオ"
+	margin: 0.5em 1em 0.5em 5em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a0a0a0;
+	border-collapse: collapse;
+}
+
+th {
+	font-size   : 9pt;
+	font-family : "Meiryo", "メイリオ"
+	padding: 2px;
+	background-color:#f0f0f0;
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a0a0a0;
+}
+
+td {
+	font-size   : 9pt;
+	font-family : "Meiryo", "メイリオ"
+	padding: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a0a0a0;
+}
+
+
+/* リンク文字列に関する設定 */
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	background-color: transparent;
+	color: #00a;
+	text-decoration: none;
+}
+
+a:hover {
+	# text-decoration: underline;
+}
+
+blockquote {
+	background-color:#d0f0f0;
+}
